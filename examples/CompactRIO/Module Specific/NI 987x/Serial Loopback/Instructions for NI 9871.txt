@@ -1,0 +1,13 @@
+These examples are ready for use with the NI 9870 (RS232) and can be modified for use with the NI 9871 (RS485/RS422).
+
+To use these examples with the NI 9871, do the following steps:
+
+1. Plug the NI 9871 into your CompactRIO Chassis. 
+2. Add the NI 9871 module to your Local Chassis in the LabVIEW project. 
+	a. In the LabVIEW project, right-click the Local Chassis » New » C Series Modules...
+	b. Select the NI 9871 from the list of available Targets and Devices. 
+	c. Press OK to add that module to the project.
+	d. Note: This example is designed for use in 4-wire mode with the NI 9871.
+3. Modify the FPGA Method I/O Nodes in the FPGA VI to use one of the NI 9871 ports. 
+	a. Right-click the FPGA Method I/O Node » Select Item » FPGA Target » <NI 9871> » <Port 0..3>. 
+	b. Note: There is at least one FPGA I/O Method Node for the 'Write' case, and one FPGA I/O Method Node for the 'Read' case. All FPGA I/O Method Nodes in the FPGA VI must be changed.

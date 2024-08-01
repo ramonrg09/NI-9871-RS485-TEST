@@ -1,0 +1,20 @@
+[My Computer]
+My Computer = "10.0.0.1"
+
+[RT CompactRIO 900x]
+RT CompactRIO 900x = "0.0.0.0"
+
+[RT CompactRIO 901x]
+RT CompactRIO 901x = "0.0.0.0"
+
+[RT CompactRIO Interrupts]
+RT CompactRIO Interrupts = "0.0.0.0"
+
+[RT CompactRIO Target (DMA Interface)]
+RT CompactRIO Target (DMA Interface) = "10.0.0.5"
+
+[RT CompactRIO Target (DMA Read)]
+RT CompactRIO Target (DMA Read) = "0.0.0.0"
+
+[RT CompactRIO Target (Interrupt Interface)]
+RT CompactRIO Target (Interrupt Interface) = "0.0.0.0"
